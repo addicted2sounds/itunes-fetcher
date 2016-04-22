@@ -15,7 +15,6 @@ class FetchArtistJob < ActiveJob::Base
     response = JSON.parse Net::HTTP.get(uri)
     puts "No albums found for #{ artist.name }" if response['resultCount'] == 0
     response['results'].each do |result|
-      p result['collectionType']
       if result['collectionType'].eql? 'Album'
         Album.create name: result['collectionName'], url: result['collectionViewUrl'],
                      artist: artist
@@ -27,7 +26,7 @@ class FetchArtistJob < ActiveJob::Base
     # Do something later
     begin
       fetch_artists(name).each do |artist|
-        fetch_albums artist.itunes_id
+        fetch_albums artist
       end
     rescue SocketError => e
       puts e.message
