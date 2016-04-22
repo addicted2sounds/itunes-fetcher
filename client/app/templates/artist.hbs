@@ -1,0 +1,7 @@
+<h4>Albums:</h4>
+{{#each model as |album|}}
+<p><a href={{album.url}}>{{album.name}}</a></p>
+{{else}}
+  <p>None found</p>
+{{/each}}
+<p>{{#link-to 'index'}}Back{{/link-to}}</p>

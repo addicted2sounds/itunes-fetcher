@@ -1,7 +1,7 @@
 <h2>Fetched artists:</h2>
 <ul>
   {{#each model as |artist|}}
-    <p>{{artist.name}}</p>
+  <p>{{artist.name}} ({{#link-to 'artist' artist.id}}view{{/link-to}})</p>
   {{else}}
     <li>empty</li>
   {{/each}}

@@ -4,7 +4,6 @@ json.data do |json|
     json.type 'artist'
     json.attributes do |json|
       json.extract! artist, :name
-      json.url artist_url(artist, format: :json)
     end
   end
 end
