@@ -1,0 +1,8 @@
+<h2>Fetched artists:</h2>
+<ul>
+  {{#each model as |artist|}}
+    <p>{{artist.name}}</p>
+  {{else}}
+    <li>empty</li>
+  {{/each}}
+</ul>
