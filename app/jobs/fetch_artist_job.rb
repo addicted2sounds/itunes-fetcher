@@ -7,15 +7,19 @@ class FetchArtistJob < ActiveJob::Base
     puts 'Artist not found' if response['resultCount'] == 0
     response['results'].map do |result|
       Artist.create name: result['artistName'], itunes_id: result['artistId']
-    end
+    end if response.has_key? 'results'
   end
 
   def fetch_albums(artist)
-    uri = URI(" https://itunes.apple.com/lookup?id=#{ artist.itunes_id }&entity=album")
+    uri = URI("https://itunes.apple.com/lookup?id=#{ artist.itunes_id }&entity=album")
     response = JSON.parse Net::HTTP.get(uri)
     puts "No albums found for #{ artist.name }" if response['resultCount'] == 0
     response['results'].each do |result|
-      artist = Artist.create name: result['artistName'], itunes_id: result['artistId']
+      p result['collectionType']
+      if result['collectionType'].eql? 'Album'
+        Album.create name: result['collectionName'], url: result['collectionViewUrl'],
+                     artist: artist
+      end
     end
   end
 

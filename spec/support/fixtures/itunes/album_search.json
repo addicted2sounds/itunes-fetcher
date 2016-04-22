@@ -1,0 +1,46 @@
+{
+ "resultCount":4,
+ "results": [
+  {
+    "wrapperType":"artist", "artistType":"Artist", "artistName":"ABBA",
+    "artistLinkUrl":"https://itunes.apple.com/us/artist/abba/id372976?uo=4",
+    "artistId":372976, "amgArtistId":3492, "primaryGenreName":"Pop", "primaryGenreId":14
+  },
+  {
+    "wrapperType":"collection", "collectionType":"Album", "artistId":372976,
+    "collectionId":850009855, "amgArtistId":3492, "artistName":"ABBA",
+    "collectionName":"Gold: Greatest Hits", "collectionCensoredName":"Gold: Greatest Hits",
+    "artistViewUrl":"https://itunes.apple.com/us/artist/abba/id372976?uo=4",
+    "collectionViewUrl":"https://itunes.apple.com/us/album/gold-greatest-hits/id850009855?uo=4",
+    "artworkUrl60":"http://is1.mzstatic.com/image/thumb/Music4/v4/95/20/8f/95208fc6-629f-6ac9-c8db-69357b9b69d2/source/60x60bb.jpg",
+    "artworkUrl100":"http://is1.mzstatic.com/image/thumb/Music4/v4/95/20/8f/95208fc6-629f-6ac9-c8db-69357b9b69d2/source/100x100bb.jpg",
+    "collectionPrice":7.99, "collectionExplicitness":"notExplicit", "trackCount":19, "copyright":"℗ 2014 Polar Music International AB",
+    "country":"USA", "currency":"USD", "releaseDate":"2014-04-04T07:00:00Z", "primaryGenreName":"Pop"
+  },
+  {
+    "wrapperType":"collection", "collectionType":"Compilation", "artistId":372976,
+    "collectionId":402574, "amgArtistId":3492, "artistName":"ABBA",
+    "collectionName":"20th Century Masters - The Millennium Collection: The Best of ABBA",
+    "collectionCensoredName":"20th Century Masters - The Millennium Collection: The Best of ABBA",
+    "artistViewUrl":"https://itunes.apple.com/us/artist/abba/id372976?uo=4",
+    "collectionViewUrl":"https://itunes.apple.com/us/album/20th-century-masters-millennium/id402574?uo=4",
+    "artworkUrl60":"http://is1.mzstatic.com/image/thumb/Music/v4/30/3c/2b/303c2b79-92c3-56e3-4c46-e4115a27daab/source/60x60bb.jpg",
+    "artworkUrl100":"http://is1.mzstatic.com/image/thumb/Music/v4/30/3c/2b/303c2b79-92c3-56e3-4c46-e4115a27daab/source/100x100bb.jpg",
+    "collectionPrice":9.99, "collectionExplicitness":"notExplicit", "trackCount":11, "copyright":"℗ 2000 Polar Music International AB",
+    "country":"USA", "currency":"USD", "releaseDate":"2000-09-26T07:00:00Z", "primaryGenreName":"Pop"
+  },
+  {
+    "wrapperType":"collection", "collectionType":"Album", "artistId":372976, "collectionId":510714434, "amgArtistId":3492, 
+    "artistName":"ABBA", "collectionName":"More ABBA Gold: More ABBA Hits", "collectionCensoredName":"More ABBA Gold: More ABBA Hits", 
+    "artistViewUrl":"https://itunes.apple.com/us/artist/abba/id372976?uo=4", 
+    "collectionViewUrl":"https://itunes.apple.com/us/album/more-abba-gold-more-abba-hits/id510714434?uo=4", 
+    "artworkUrl60":"http://is1.mzstatic.com/image/thumb/Music/v4/09/a2/76/09a2765c-8c2a-9dee-6774-4a95a7f1e437/source/60x60bb.jpg", 
+    "artworkUrl100":"http://is1.mzstatic.com/image/thumb/Music/v4/09/a2/76/09a2765c-8c2a-9dee-6774-4a95a7f1e437/source/100x100bb.jpg", 
+    "collectionPrice":6.99, "collectionExplicitness":"notExplicit", "trackCount":20, "copyright":"℗ 2008 Polar Music International AB", 
+    "country":"USA", "currency":"USD", "releaseDate":"2008-06-02T07:00:00Z", "primaryGenreName":"Pop"
+  }
+]
+}
+
+
+
